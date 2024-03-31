@@ -1,0 +1,19 @@
+body {
+  background-image: linear-gradient(pink, orange);
+}
+form {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  color: red;
+}
+button {
+  justify-content: center;
+}
+p {
+  text-align: center;
+  color: rgb(246, 43, 76)
+
+}

@@ -5,6 +5,12 @@ import Authenticate from './Authenticate'
 
 function App() {
   const [token, setToken] = useState(null);
+  useEffect(() => {
+    const localToken = localStorage.getItem("Token");
+    if(localToken){
+      setToken(localToken);
+    }
+}, [])
   return (
     <>
       <SignUpForm token={token} setToken={setToken} />
